@@ -7,8 +7,8 @@
 
 const { argv } = require('yargs');
 
-console.log(argv);
+//console.log(argv);
 
-console.log('Hello world');
+console.log('Hello world!');
 
 

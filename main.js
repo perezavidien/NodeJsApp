@@ -7,8 +7,12 @@
 
 const { argv } = require('yargs');
 
-//console.log(argv);
+// console.log(argv);
 
-console.log('Hello world!');
+const bank = argv.bankName;
+const amount = argv.loanAmount;
+const term = argv.loanTerm;
 
-
+// console.log(bank);
+// console.log(amount);
+// console.log(term);

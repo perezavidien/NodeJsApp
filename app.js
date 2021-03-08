@@ -1,5 +1,3 @@
-
-
 'use strict';
 
 const { argv, strict } = require('yargs');
@@ -32,6 +30,7 @@ class FileWatcher extends EventEmitter {
             });
         });
     }
+
     readDirectory(text, path) {
         let that = this;
         fs.readdir(path, function (err, filenames) {
@@ -55,6 +54,7 @@ class FileWatcher extends EventEmitter {
         });
     }
 }
+
 const nameParam = argv.name;
 const pathParam = argv.path;
 

@@ -1,0 +1,14 @@
+{
+  "servants": [
+    {
+      "name": "Mash Kyrielight",
+      "class": "Shielder",
+      "alignment": "Lawful"
+    },
+    {
+      "name": "Okita Souji",
+      "class": "Saber",
+      "alignment": "Neutral"
+    }
+  ]
+}

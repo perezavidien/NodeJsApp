@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lowdb": "^1.0.0",
     "node-notifier": "^9.0.0",
     "yargs": "^16.2.0"
   }
